@@ -1,0 +1,63 @@
+.pricing_section{
+    padding: 65px 0;
+}
+.hr{
+    text-align: center;
+    max-width: 530px;
+    margin: auto;
+    line-height: 1.4;
+    font-family: 'Gotham Rounded Book';
+    font-size: 36px;
+    margin-bottom: 55px;
+}
+.param{
+    max-width: 660px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.contacts{
+    color: white;
+    padding: 15px;
+    background-color: #F15623;
+}
+
+.contacts_title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 0.8;
+}
+.contacts ul{
+    font-size: 18px;
+    line-height: 1.333;
+    font-family: 'Gotham Rounded Book';
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+.contacts ul li a{
+    color: white;
+}
+.contacts .social{
+    display: flex;
+    margin-bottom: 0;
+}
+.social li{
+    margin-right: 35px;
+}
+
+@media (max-width: 575px) {
+    .contacts_title{
+        line-height: 1.2;
+    }
+    .contacts ul{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .contacts ul li{
+        margin-bottom: 15px;
+    }
+}
+
+

@@ -1,0 +1,62 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form ::-webkit-input-placeholder {
+    font-size: 18px;
+    font-family: 'Gotham Rounded Book';
+}
+
+.form input{
+    height: 50px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(198, 198, 198);
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.22);
+    outline: none !important;
+    padding-left: 15px;
+    font-size: 18px;
+    font-family: 'Gotham Rounded Book';
+}
+.form textarea{
+    margin-bottom: 25px;
+    padding: 15px;
+    height: 295px;
+    border: 1px solid rgb(198, 198, 198);
+    outline: none !important;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.22);
+    font-size: 18px;
+    font-family: 'Gotham Rounded Book';
+}
+.top_inputs{
+    display: flex;
+    justify-content: space-between;
+
+}
+.top_inputs input{
+    width: 48%;
+}
+.form button{
+    width: 100%;
+    background-color: #F15623;
+    border:none;
+    outline: none !important;
+    height: 50px;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.22);
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+@media (max-width: 575px){
+    .form input{
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .form textarea{
+        height: 195px;
+        padding-left: 5px;
+        font-size: 14px;
+    }
+    .form ::-webkit-input-placeholder {
+        font-size: 14px;
+    }
+}

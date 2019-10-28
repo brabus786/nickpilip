@@ -1,22 +1,61 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Gotham Rounded';
+    color:#3F3F41;
 }
 
-.App-logo {
-  height: 40vmin;
+h1, p{
+    margin: 0;
+    padding: 0;
+}
+.title_block{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.title_block img{
+    margin-right: 15px;
+}
+.discription{
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Gotham Rounded Book';
+    margin-bottom: 15px;
+}
+.srction_wrap_img img{
+    width: 100%;
+    box-shadow: 0px 2px 23.49px 3.51px rgba(0, 0, 0, 0.34);
+    border-radius: 20px;
+
+}
+.block_smol_tekst{
+    font-size: 16px;
+    line-height: 1.125;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.section{
+    margin-bottom: 120px;
+}
+.skils{
+    font-size: 36px;
+    line-height: 1.333;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 991px) {
+    .discription{
+        margin-bottom: 40px;
+    }
+    .section{
+        margin-bottom: 40px;
+    }
+    .block_smol_tekst:last-child{
+        margin-bottom: 40px;
+    }
 }
 
-.App-link {
-  color: #09d3ac;
-}

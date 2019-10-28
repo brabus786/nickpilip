@@ -1,0 +1,21 @@
+.inset{
+    padding: 30px 0 180px 0;
+}
+.proposition{
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Gotham Rounded Book';
+}
+.proposition span{
+    font-weight: 700;
+}
+
+@media (max-width: 575px) {
+    .proposition{
+        font-size: 36px;
+    }
+    .inset{
+        padding-bottom: 120px;
+    }
+}
+

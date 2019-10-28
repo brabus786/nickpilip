@@ -1,0 +1,43 @@
+.section_skills{
+    background-color: #F0F0F0;
+    padding: 45px 0;
+}
+.list_skills{
+    padding: 0;
+    margin: 0;
+}
+.list_skills li{
+    list-style-type: none;
+    font-family: 'Gotham Rounded Book';
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.list_skills li:last-child{
+    margin-bottom: 0;
+}
+
+.list_skills li span{
+    margin-right: 15px;
+    width: 25px;
+    height: 10px;
+    border: 3px solid #007FD9;
+    display: inline-block;
+    border-top:none;
+    border-right: none;
+    transform: rotate(-50grad);
+}
+
+@media (max-width: 1199px) {
+    .list_skills{
+        margin-bottom: 40px;
+    }
+    .list_skills li{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px){
+
+}

@@ -1,0 +1,15 @@
+.title_page{
+    font-size: 36px;
+    line-height: 1.333;
+    text-align: center;
+    font-weight: 500;
+    max-width: 870px;
+    margin: auto;
+    padding-bottom:60px;
+}
+
+@media (max-width: 991px) {
+    .title_page{
+        text-align: left;
+    }
+}

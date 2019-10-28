@@ -1,0 +1,21 @@
+.logo_wrap{
+ margin-right: 10px;
+}
+.title{
+  font-size: 36px;
+ font-weight: 700;
+}
+.inset{
+ min-height: 100px;
+ display: flex;
+ align-items: center;
+}
+.wrap_proposition{
+ border: 1px solid green;
+}
+
+@media (max-width: 575px) {
+ .title{
+  font-size: 32px;
+ }
+}
