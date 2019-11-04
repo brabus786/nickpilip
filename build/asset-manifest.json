@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29afd66e.chunk.css",
+    "main.js": "/static/js/main.d6c4e48f.chunk.js",
+    "main.js.map": "/static/js/main.d6c4e48f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e89362ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e89362ac.js.map",
+    "static/css/2.0624914a.chunk.css": "/static/css/2.0624914a.chunk.css",
+    "static/js/2.317b5732.chunk.js": "/static/js/2.317b5732.chunk.js",
+    "static/js/2.317b5732.chunk.js.map": "/static/js/2.317b5732.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.803e3a06f39dc27337d9939b9a836c47.js": "/precache-manifest.803e3a06f39dc27337d9939b9a836c47.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.29afd66e.chunk.css.map": "/static/css/main.29afd66e.chunk.css.map",
+    "static/media/Device-lab.webp": "/static/media/Device-lab.7b447a55.webp",
+    "static/media/Device-lab.png": "/static/media/Device-lab.d47f161c.png",
+    "static/media/stylesheet.css": "/static/media/GothamRounded-MediumItalic.33fad2a3.woff",
+    "static/media/contact1.webp": "/static/media/contact1.73d40e5b.webp",
+    "static/media/contact2.webp": "/static/media/contact2.ff7df5d0.webp",
+    "static/media/contact3.webp": "/static/media/contact3.7e8ddf22.webp",
+    "static/media/img6.webp": "/static/media/img6.c917e533.webp",
+    "static/media/img6.png": "/static/media/img6.cb5e871c.png",
+    "static/media/img7.webp": "/static/media/img7.9e1c81d3.webp",
+    "static/media/img7.png": "/static/media/img7.e6da6495.png",
+    "static/media/img8.webp": "/static/media/img8.9859487a.webp",
+    "static/media/img9.webp": "/static/media/img9.176a07e8.webp",
+    "static/media/seo.webp": "/static/media/seo.ea546006.webp",
+    "static/media/seo.png": "/static/media/seo.f8e7cdc3.png",
+    "static/media/test.webp": "/static/media/test.369dc4c2.webp",
+    "static/media/test.png": "/static/media/test.663b07fe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e89362ac.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.317b5732.chunk.js",
+    "static/css/main.29afd66e.chunk.css",
+    "static/js/main.d6c4e48f.chunk.js"
+  ]
+}
