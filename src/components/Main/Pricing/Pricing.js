@@ -1,12 +1,15 @@
 import React from 'react';
 import classes from './Pricing.module.css';
 import telegram from '../../../assets/img/contact1.png';
+import telegramWebp from '../../../assets/img/contact1.webp';
 import In from '../../../assets/img/contact2.png';
+import InWebp from '../../../assets/img/contact2.webp';
 import Fb from '../../../assets/img/contact3.png';
+import FbWebp from '../../../assets/img/contact3.webp';
 import Form from "./Form/Form";
 
-const Pricing = () =>{
-    return(
+const Pricing = () => {
+    return (
         <section className={classes.pricing_section}>
             <div className={'container'}>
                 <p className={'skils'}>Pricing</p>
@@ -30,13 +33,38 @@ const Pricing = () =>{
                             </p>
                             <ul>
                                 <li><a href="tel:+380501596204">Tel: +380 66 654 7621</a></li>
-                                <li><a href="mailto:nikolay.pilipchatin@gmail.com">Emai: nikolay.pilipchatin@gmail.com</a></li>
+                                <li><a href="mailto:nikolay.pilipchatin@gmail.com">Emai:
+                                    nikolay.pilipchatin@gmail.com</a></li>
                                 <li>Based in Ukraine, Kharkiv</li>
                             </ul>
                             <ul className={classes.social}>
-                                <li><a href=""><img src={telegram} alt=""/></a></li>
-                                <li><a href=""><img src={In} alt=""/></a></li>
-                                <li><a href=""><img src={Fb} alt=""/></a></li>
+                                <li>
+                                    <a href="">
+                                        <picture>
+                                            <source type="image/webp" srcSet={telegramWebp}/>
+                                            <source type="image/jpeg" srcSet={telegram}/>
+                                            <img src={telegram} alt="img"/>
+                                        </picture>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <picture>
+                                            <source type="image/webp" srcSet={InWebp}/>
+                                            <source type="image/jpeg" srcSet={In}/>
+                                            <img src={In} alt="img"/>
+                                        </picture>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <picture>
+                                            <source type="image/webp" srcSet={FbWebp}/>
+                                            <source type="image/jpeg" srcSet={Fb}/>
+                                            <img src={Fb} alt="img"/>
+                                        </picture>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

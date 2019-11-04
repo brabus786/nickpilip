@@ -3,6 +3,7 @@ body {
     color:#3F3F41;
 }
 
+
 h1, p{
     margin: 0;
     padding: 0;
@@ -36,6 +37,10 @@ h1, p{
     text-align: left;
     font-weight: 400;
     margin-bottom: 15px;
+}
+.block_smol_tekst a{
+    color: blue;
+    text-decoration: none;
 }
 .section{
     margin-bottom: 120px;

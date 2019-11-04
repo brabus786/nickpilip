@@ -3,12 +3,19 @@ import UniqueSellingProposition from "./UniqueSellingProposition/Unique_selling_
 import TitlePage from "./TitlePage/TitlePage";
 import Section from "./Section/Section";
 import Section3Img from './../../assets/img/Device-lab.png';
+import Section3ImgWbp from './../../assets/img/Device-lab.webp';
 import Section4Img from './../../assets/img/test.png';
+import Section4ImgWbp from './../../assets/img/test.webp';
 import Section5Img from './../../assets/img/seo.png';
+import Section5ImgWbp from './../../assets/img/seo.webp';
 import Section6Img from './../../assets/img/img6.png';
+import Section6ImgWbp from './../../assets/img/img6.webp';
 import Section7Img from './../../assets/img/img7.png';
+import Section7ImgWbp from './../../assets/img/img7.webp';
 import Section8Img from './../../assets/img/img8.png';
+import Section8ImgWbp from './../../assets/img/img8.webp';
 import Section9Img from './../../assets/img/img9.png';
+import Section9ImgWbp from './../../assets/img/img9.webp';
 import MySkills from "./MySkills/MySkills";
 import Pricing from "./Pricing/Pricing";
 
@@ -18,7 +25,7 @@ const Main = () => {
             <UniqueSellingProposition/>
             <TitlePage/>
 
-            <Section img={Section3Img}>
+            <Section img={Section3Img} imgWbp={Section3ImgWbp}>
                 <p className={'title_block'}>Responsive Development
                 </p>
                 <p className={'discription'}>
@@ -26,7 +33,7 @@ const Main = () => {
                 </p>
             </Section>
 
-            <Section img={Section4Img} leftside>
+            <Section img={Section4Img} imgWbp={Section4ImgWbp} leftside>
                 <p className={'title_block'}>
                     Blazing Fast Page Loading Speed
                 </p>
@@ -45,7 +52,7 @@ const Main = () => {
                 </p>
             </Section>
 
-            <Section img={Section5Img}>
+            <Section img={Section5Img} imgWbp={Section5ImgWbp}>
                 <p className={'title_block'}>
                     SEO Friendly, Valid Markup
                 </p>
@@ -54,7 +61,7 @@ const Main = () => {
                 </p>
             </Section>
 
-            <Section img={Section6Img} leftside>
+            <Section img={Section6Img} imgWbp={Section6ImgWbp} leftside>
                 <p className={'title_block'}>
                     Cross-browser Compitable, Retina support
                 </p>
@@ -63,7 +70,7 @@ const Main = () => {
                 </p>
             </Section>
 
-            <Section img={Section7Img}>
+            <Section img={Section7Img} imgWbp={Section7ImgWbp}>
                 <p className={'title_block'}>
                     Get the most out of social media link shares with Open Graph
                 </p>
@@ -73,7 +80,7 @@ const Main = () => {
                 </p>
             </Section>
 
-            <Section img={Section8Img} leftside>
+            <Section img={Section8Img} imgWbp={Section8ImgWbp} leftside>
                 <p className={'title_block'}>
                     Setup Anyalitcs Tools
                 </p>
@@ -82,7 +89,7 @@ const Main = () => {
                 </p>
             </Section>
 
-            <Section img={Section9Img}>
+            <Section img={Section9Img} imgWbp={Section9ImgWbp}>
                 <p className={'title_block'}>
                     Greate user engament with JavaScript
                 </p>

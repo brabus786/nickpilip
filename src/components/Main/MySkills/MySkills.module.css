@@ -34,7 +34,7 @@
         margin-bottom: 40px;
     }
     .list_skills li{
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 

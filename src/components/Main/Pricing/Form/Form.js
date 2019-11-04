@@ -5,12 +5,12 @@ const Form = () => {
     return (
         <form className={classes.form} action="">
             <div className={classes.top_inputs}>
-                <input type="text" placeholder="Your Name"/>
-                <input type="text" placeholder="Your Email"/>
+                <input aria-label="Your Name" type="text" placeholder="Your Name"/>
+                <input aria-label="Your Email" type="text" placeholder="Your Email"/>
             </div>
-            <input type="text" placeholder="Your Phone Number (Not Required)"/>
-            <input type="text" placeholder="Your Designs URL (Dropbox, GoogleDeive etc.)"/>
-            <textarea placeholder="Project Brief."></textarea>
+            <input aria-label="Your Phone Number" type="text" placeholder="Your Phone Number (Not Required)"/>
+            <input aria-label="Your Designs URL" type="text" placeholder="Your Designs URL (Dropbox, GoogleDeive etc.)"/>
+            <textarea aria-label="Project Brief" placeholder="Project Brief."></textarea>
             <button type="button">Get free qute</button>
         </form>
     )

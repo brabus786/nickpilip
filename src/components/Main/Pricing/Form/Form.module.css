@@ -46,6 +46,11 @@
     color: white;
     font-weight: 400;
 }
+@media (max-width: 991px){
+    .form button{
+        margin-bottom: 50px;
+    }
+}
 @media (max-width: 575px){
     .form input{
         padding-left: 5px;
