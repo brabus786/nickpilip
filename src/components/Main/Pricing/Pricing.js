@@ -12,12 +12,11 @@ const Pricing = () =>{
                 <p className={'skils'}>Pricing</p>
                 <p className={classes.hr}>
                     My pricing is simple :) $10/hr.
-                    100% Money Back Guarantee.
+                    100% Money-Back Guarantee.
                 </p>
-                <p className={'skils'}>Get Free Qute</p>
-                <p className={'discription'+ ' ' + classes.param}>
-                    Would like to know how much it would take to convert
-                    your desing to html feel free to reach out to me!
+                <p className={'skils'}>Get Free Quote</p>
+                <p className={'discription' + ' ' + classes.param}>
+                    Would like me to convert your design to HTML. Feel free to reach out to me!
                 </p>
 
                 <div className={'row'}>

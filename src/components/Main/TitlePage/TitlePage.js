@@ -6,8 +6,7 @@ const TitlePage = () => {
         <section>
             <div className={'container'}>
                 <p className={classes.title_page}>
-                    What is the best for your e-commerce buissness
-                    in my psd to html service
+                What is the best for your e-commerce business in my PSD to HTML service
                 </p>
             </div>
         </section>
